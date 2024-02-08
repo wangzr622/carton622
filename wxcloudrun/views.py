@@ -1,7 +1,6 @@
 from datetime import datetime
-from flask import render_template, request
 from run import app
-from flask import Flask, request, Response
+from flask import render_template, Flask, request, Response
 import requests
 
 
