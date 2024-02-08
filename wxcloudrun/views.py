@@ -1,6 +1,8 @@
 from datetime import datetime
 from flask import render_template, request
 from run import app
+from flask import Flask, request, Response
+import requests
 
 
 TARGET_BASE_URL = 'http://www.carton622.cn'
