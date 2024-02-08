@@ -15,10 +15,10 @@ app.config['DEBUG'] = config.DEBUG
                                                                              config.db_address)
 
 # 初始化DB操作对象
-# db = SQLAlchemy(app)
+#db = SQLAlchemy(app)
 
 # 加载控制器
 from wxcloudrun import views
 
 # 加载配置
-# app.config.from_object('config')
+# pp.config.from_object('config')
